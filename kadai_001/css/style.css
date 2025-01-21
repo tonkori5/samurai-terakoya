@@ -6,6 +6,11 @@ p {
   box-sizing: border-box;
 }
 
+.myprofile {
+  width: 50%;
+  text-align: center;
+}
+
 body {
   padding: 0px;
   margin: 0px;
@@ -37,11 +42,10 @@ header > a {
   text-decoration: none;
 }
 
-header > h1 {
-  margin: 0 0 0 20px;
+#profile {
+  margin: 0 27% 0 27%;
   font-size: 34px;
   border: 1px solid black;
-  padding: 0px 20px;
 }
 
 div > img {
@@ -49,18 +53,25 @@ div > img {
   width: 100%;
 }
 
-#nav-pc ul {
-  display: flex;
-  padding-left: 0;
+#nav-pc {
+  width: 50%;
 }
 
-#nav-pc li {
-  margin: 0 20px;
+#nav-pc ul {
   list-style: none;
+}
+#nav-pc > li {
+  display: flex;
+  padding-left: 0;
+  justify-content: space-between;
 }
 
 #nav-pc a {
+  margin-right: 30px;
   font-size: 34px;
+  list-style: none;
+  color: black;
+  text-decoration: none;
 }
 
 h2 {
@@ -75,15 +86,40 @@ li {
   font-size: 18px;
 }
 
-.about {
-  padding: 10px;
+.aboutin {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 20px auto;
-  max-width: 960px;
 }
 
-#about {
+#jigazou {
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 250px;
+}
+
+.content {
+  width: 50%;
+}
+
+.box1 {
+  width: 33%;
+  display: block;
+}
+
+.box2 {
+  width: 33%;
+  display: block;
+
+}.box3 {
+  width: 33%;
+  display: block;
+}
+
+.works {
   display: flex;
+  margin-bottom: 200px;
+}
+
+footer {
+  text-align: center;
 }
