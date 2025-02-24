@@ -53,7 +53,7 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo home_url(); ?>/category/courses">
+                  <a class="nav-link" href="<?php echo home_url(); ?>/course">
                     COURSES
                     <p>コース</p>
                   </a>
