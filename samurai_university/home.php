@@ -1,4 +1,4 @@
-     <?php get_header(); ?>
+carousel     <?php get_header(); ?>
     <!-- メインビジュアル -->
     <div class="home">
       <div class="home_slider_container">
@@ -45,7 +45,7 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="images/top3_1200_630.jpg" class="d-block w-100" />
+              <img src="<?php echo get_template_directory_uri(); ?>/images/top2_1200_630.jpg" class="d-block w-100" />
                 <div class="carousel-caption d-none d-md-block">
                   <img src="images/logo_big_slide.png" />
                   <div class="title-slide">
@@ -81,7 +81,7 @@
       <div class="footer_row">
         <div class="row news_row">
           <!-- ニュース -->
-          <div class="col-lg-6 col-md-6 col-sx-12 news_col">
+          <div class="col-lg-6 col-md-6 col-xs-12 news_col">
             <div class="home_title">News</div>
             <div class="home_title_sub">ニュース</div>
             <?php
@@ -191,7 +191,7 @@
       <div class="footer_row">
         <div class="row news_row">
           <!-- 卒業生の声 -->
-          <div class="col-lg-6 col-md-6 col-sx-12 news_col">
+          <div class="col-lg-6 col-md-6 col-xs-12 news_col">
             <div class="home_title">Graduates</div>
             <div class="home_title_sub">卒業生の声</div>
             <?php
@@ -237,7 +237,7 @@
                 <?php wp_reset_postdata(); ?>
               
           </div>
-          <!-- ニュースここまで -->
+          <!-- 卒業生の声ここまで -->
         </div>
       </div>
     </div>
