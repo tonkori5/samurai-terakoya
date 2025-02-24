@@ -41,19 +41,25 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="nav-link" href="<?php echo home_url(); ?>/category/events">
+                  <a class="nav-link" href="<?php echo home_url(); ?>/category/event">
                     EVENT
                     <p>イベント</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="nav-link" href="<?php echo home_url(); ?>/category/courses">
+                  <a class="nav-link" href="<?php echo home_url(); ?>/category/graduates">
+                  GRADUATES
+                    <p>卒業生の声</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="<?php echo home_url(); ?>/category/courses">
                     COURSES
                     <p>コース</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="nav-link" href="<?php echo home_url(); ?>/category/about_us">
+                  <a class="nav-link" href="<?php echo home_url(); ?>/about_us">
                     ABOUT US
                     <p>侍大学について</p>
                   </a>
