@@ -12,9 +12,8 @@
       </div>
     </div>
 
-    <!-- Courses -->
-<?php if (have_posts()) : ?>
-  <?php while (have_posts()) : the_post() ?>
+            <!-- Course -->
+
     <div class="courses">
       <div class="footer_row">
         <div class="row">
@@ -23,6 +22,8 @@
             <div class="courses_container">
               <div class="row courses_row">
                 <!-- Course -->
+                <?php if (have_posts()) : ?>
+                  <?php while (have_posts()) : the_post() ?>
                 <div class="col-lg-4 course_col">
                   <div class="course">
                     <div class="course_image">
@@ -40,11 +41,11 @@
                     </div>
                     <div class="course_footer">
                       <div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
-                        <div class="course_price ml-auto"><a href="<?php the_permalink(); ?>">詳細を見る</a></div>
-                      </div>
+                      <div class="course_price ml-auto"><a href="<?php the_permalink(); ?>">詳細を見る</a></div>
                     </div>
                   </div>
                 </div>
+              </div>
                 <?php endwhile; ?>
                 <?php endif; ?>
                

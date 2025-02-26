@@ -81,7 +81,7 @@ carousel     <?php get_header(); ?>
       <div class="footer_row">
         <div class="row news_row">
           <!-- ニュース -->
-          <div class="col-lg-6 col-md-6 col-xs-12 news_col">
+          <div class="col-lg-6 col-md-6 col-sx-12 news_col">
             <div class="home_title">News</div>
             <div class="home_title_sub">ニュース</div>
             <?php
@@ -190,8 +190,8 @@ carousel     <?php get_header(); ?>
           <div class="news">
       <div class="footer_row">
         <div class="row news_row">
-          <!-- 卒業生の声 -->
-          <div class="col-lg-6 col-md-6 col-xs-12 news_col">
+          <!-- ニュース -->
+          <div class="col-lg-6 col-md-6 col-sx-12 news_col">
             <div class="home_title">Graduates</div>
             <div class="home_title_sub">卒業生の声</div>
             <?php
@@ -200,7 +200,7 @@ carousel     <?php get_header(); ?>
                 //投稿タイプ
                 'post_type'   => 'post',
                 //カテゴリー名
-                'category_name' => 'news',
+                'category_name' => 'graduates',
                 //１ページに表示する投稿数
                 'posts_per_page' => 3,
               );
@@ -211,8 +211,8 @@ carousel     <?php get_header(); ?>
               <!-- ループ処理 -->
                <?php foreach($posts as $post): ?>
                <?php setup_postdata($post); ?>
-               <div class="graduates_post_small">
-                <div class="graduates_post_meta">
+               <div class="news_post_small">
+                <div class="news_post_meta">
                 <ul>
                   <li>
                     <!-- aタグで投稿記事へのリンクを作成 -->
@@ -223,7 +223,7 @@ carousel     <?php get_header(); ?>
                   </li>
                </ul>
                </div>
-               <div class="graduates_post_small_title">
+               <div class="news_post_small_title">
                 <!-- aタグで投稿記事へのリンクを作成する -->
                  <a href="<?php the_permalink(); ?>">
                   <!-- 投稿記事のタイトルを表示する -->
@@ -237,7 +237,7 @@ carousel     <?php get_header(); ?>
                 <?php wp_reset_postdata(); ?>
               
           </div>
-          <!-- 卒業生の声ここまで -->
+          <!-- ニュースここまで -->
         </div>
       </div>
     </div>
